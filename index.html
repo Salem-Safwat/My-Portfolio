@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          serif: ['"Playfair Display"', 'serif'],
+        }
+      }
+    }
+  }
+</script>
+      <title>My Personal Website</title>
+    </head>
+  <body class="bg-blue-200">
+    <div class="fixed top-0 left-0 w-full bg-blue-500 py-4 flex justify-between items-center shadow-sm z-50 px-6">
+      <span class="font-serif font-bold text-xl text-gray-900 md:text-2xl">S.S.M</span>
+      <div class="flex gap-3 md:gap-8 text-sm md:text-base">
+        <a href="#" class="text-gray-800 hover:text-blue-600 font-semibold transition duration-300">Home</a>
+        <a href="#about.me" class="text-gray-800 hover:text-blue-600 font-semibold transition duration-300">About Me</a>
+        <a href="#projects" class="text-gray-800 hover:text-blue-600 font-semibold transition duration-300">Projects</a>
+        <a href="#skills" class="text-gray-800 hover:text-blue-600 font-semibold transition duration-300">Skills</a>
+        <a href="#journey" class="text-gray-800 hover:text-blue-600 font-semibold transition duration-300">My Journey</a>
+      </div>
+    </div>
+    <div class="flex justify-between items-start pl-4 pr-12 pt-32">
+      <div>
+        <h1 class="font-serif font-bold text-5xl pl-20">
+          Salem S. Mohammed</h1> <br>
+        <p class="text-black-500 pl-12 text-2xl">
+          That's my personal portfolio, and I'm a high school student in STEM High School for Boys - 6th of Oct.
+        </p>
+      </div>
+        <img class="w-60 rounded-xl shadow-md -mt-8" src="photos/me.png" alt="Profile Image"/>
+    </div>
+        <br>
+    <div class="text-center bg-blue-500 py-3 space-x-6">
+      <a href="https://www.facebook.com/salm.sfwt.577461/"
+      target="_blank"
+      class="text-white hover:text-red-800 font-bold transition duration-300">Facebook link</a>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=salemsafwatmohammed@gmail.com"
+      target="_blank"
+      class="text-white hover:text-blue-800 font-bold transition duration-300">Gmail Link</a>
+      <a href="https://wa.me/201020407213"
+      target="_blank"
+      class="text-white hover:text-green-800 font-bold transition duration-300">WhatsApp Link</a>
+    </div>
+    <div class="bg-white py-10 px-10 grid grid-cols-1 md:grid-cols-2 gap-16 items-start" id="about.me">
+      <div>
+        <h2 class="font-serif font-bold text-4xl mb-6">About Me</h2>
+        <p class="text-gray-700 text-lg leading-relaxed mb-4 indent-8 text-justify">As mentioned, I'm Salem Safwat, a passionate grade 12 student at STEM High School for Boys - 6th of October. I have a strong interest in Astrophysics, Engineering and Computer Science, which makes me spend almost of my free time exploring these fields, learning some programming concepts, and joining science fair competitions. The remaining free time is dedicated to practicing my hobbiesand enjoying with my friends.</p>
+        <p class="text-gray-700 text-lg leading-relaxed mb-4 indent-8 text-justify">Being a student at STEM October has allowed me to dive deep into practical challenges through experimentations in various scientific domains inside our laboratories. Also, I'm developing my skills in coding and web development currently. My long-term goal is to get along a major in Engineering, specifically Mechanical Engineering linked with Astrophysics.</p>
+        <p class="text-gray-700 text-lg leading-relaxed mb-4 indent-8 text-justify">When I'm not coding or studying, you will most likely find me immersed in a book or working in my novel. Writing is a powerful outlet for me; it allows me to build worlds with words just like programming allows me to build programms or websites with code. Balancing scientific logic with creative storytelling helps me keep a fresh perspective on everything I do.</p>
+        <p class="text-gray-700 text-lg leading-relaxed mb-4 indent-8 text-justify">For me, productivity is about finding the right balance between hard work and meaningful connections. I love sharing ideas with my friends, engaging in deep discussions about tech and astrophysics, and constantly pushing my boundaries. I strive to make every website I build, and every story I write, a reflection of my curiosity and dedication.</p>
+      </div>
+      <div class="flex flex-col space-y-8">
+        <img class="w-4/5 rounded-xl shadow-lg self-start" src="photos/Geo Lab.jpeg" alt="Geo Lab"/>
+        <img class="w-4/5 rounded-xl shadow-lg self-end" src="photos/Phy Lab.jpeg" alt="Phy Lab"/>
+        <img class="w-4/5 rounded-xl shadow-lg self-start" src="photos/Fab Lab.jpeg" alt="Fab Lab">
+      </div>
+    </div>
+    <div class="bg-gray-100 py-10 px-10" id="projects">
+      <h2 class="font-serif font-bold text-4xl mb-6 text-gray-900">Projects</h2>
+      <div class="grid grid-cols-2 gap-8">
+        <div class="group bg-white rounded-xl shadow-md overflow-hidden transition duration-300 hover:shadow-xl flex flex-col h-full">
+          <div class="overflow-hidden h-64 flex items-center justify-center p-4 bg-gray-200">
+            <img class="max-h-full h-48 w-auto rounded-lg group-hover:scale-105 transition duration-500" src="photos/Cap.1st term.png" alt="swing link project">
+          </div>
+          <div class="p-6 flex flex-col flex-1">
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-purple-300 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">Bridge</span>
+              <span class="bg-green-300 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">Pratt Truss</span>
+              <span class="bg-amber-300 text-amber-800 text-xs font-semibold px-2.5 py-0.5 rounded">Swing Mechanism</span>
+              <span class="bg-rose-300 text-rose-800 text-xs font-semibold px-2.5 py-0.5 rounded">Gear Ratio</span>
+            </div>
+            <h3 class="font-serif font-bold text-xl text-gray-900 mb-2">Swing Link</h3>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4 text-justify">A simple bridge model built using basic engineering principles.</p>
+            <a href="files/Full Size Poster.10117. g10. 1st term.pdf" 
+            target="_blank"
+            class="inline-block text-blue-600 font-bold text-sm hover:text-blue-800 transition mt-auto pt-8">
+              View Project Poster &rarr;
+            </a>
+          </div>
+        </div>
+        <div class="group bg-white rounded-xl shadow-md overflow-hidden transition duration-300 hover:shadow-xl flex flex-col h-full">
+          <div class="overflow-hidden h-64 bg-gray-200 p-4 items-center justify-center flex">
+            <img class="max-h-full h-48 w-auto rounded-lg group-hover:scale-105 transition duration-500" src="photos/Cap.2nd term.png" alt="zenith vortex project">
+          </div>
+          <div class="p-6 flex flex-col flex-1">
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-purple-300 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">Renewable Energy</span>
+              <span class="bg-green-300 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">VAWT</span>
+              <span class="bg-amber-300 text-amber-800 text-xs font-semibold px-2.5 py-0.5 rounded">Electronics</span>
+              <span class="bg-rose-300 text-rose-800 text-xs font-semibold px-2.5 py-0.5 rounded">Lift & Drag</span>
+            </div>
+            <h3 class="font-serif font-bold text-xl text-gray-900 mb-2">Zenith Vortex</h3>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4 text-justify">A model of a wind turbine designed to harness renewable energy efficiently.</p>
+            <a href="files/Full size Poster.10117. g10. 2nd term.pdf"
+            target="_blank" 
+            class="inline-block text-blue-600 font-bold text-sm hover:text-blue-800 transition mt-auto pt-8">
+              View Project Poster &rarr;
+            </a>
+          </div> 
+        </div>
+      </div>
+      <div class="justify-center flex mt-8">
+        <div class="group bg-white rounded-xl shadow-md overflow-hidden transition duration-300 hover:shadow-xl flex flex-col h-full">
+          <div class="overflow-hidden h-64 bg-gray-200 p-4 items-center justify-center flex">
+            <img class="max-h-full h-48 w-auto rounded-lg group-hover:scale-105 transition duration-500" src="photos/mycelium project.jpeg" alt="mycelium-based bricks project">
+          </div>
+          <div class="p-6 flex flex-col flex-1">
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-purple-300 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">Biomaterials</span>
+              <span class="bg-green-300 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">Mycelium</span>
+              <span class="bg-amber-300 text-amber-800 text-xs font-semibold px-2.5 py-0.5 rounded">Sustainable Bricks</span>
+              <span class="bg-rose-300 text-rose-800 text-xs font-semibold px-2.5 py-0.5 rounded animate-pulse">In Progress</span>
+            </div>
+            <h3 class="font-serif font-bold text-xl text-gray-900 mb-2">Mycelium-Based Bricks</h3>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4 text-justify">Exploring the use of mycelium as a sustainable building material for creating eco-friendly structures.</p>
+            <span class="mt-auto inline-block pt-4 text-gray-400 font-medium text-sm cursor-not-allowed pt-8">
+              Poster Coming Soon &rarr;
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-8 mt-8">
+        <div class="group bg-white rounded-xl shadow-md overflow-hidden transition duration-300 hover:shadow-xl flex flex-col h-full">
+          <div class="overflow-hidden h-64 bg-gray-200 p-4 items-center justify-center flex">
+            <img class="max-h-full h-48 w-auto rounded-lg group-hover:scale-105 transition duration-500" src="photos/Cap.3rd term.png" alt="opti-hawk meter project">
+          </div>
+          <div class="p-6 flex flex-col flex-1">
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-purple-300 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">Time-of-Flight</span>
+              <span class="bg-green-300 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">Laser</span>
+              <span class="bg-amber-300 text-amber-800 text-xs font-semibold px-2.5 py-0.5 rounded">IoT</span>
+              <span class="bg-rose-300 text-rose-800 text-xs font-semibold px-2.5 py-0.5 rounded">Distance Precision</span>
+            </div>
+            <h3 class="font-serif font-bold text-xl text-gray-900 mb-2">Opti-Hawk Meter</h3>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4 text-justify">A precision distance measurement device using Time-of-Flight technology.</p>
+            <a href="files/Full Sixe Poster.10119.g11.2nd term.pdf" 
+            target="_blank"
+            class="inline-block text-blue-600 font-bold text-sm hover:text-blue-800 transition mt-auto pt-8">
+              View Project Poster &rarr;
+            </a>
+          </div>
+        </div>
+        <div class="group bg-white rounded-xl shadow-md overflow-hidden transition duration-300 hover:shadow-xl flex flex-col h-full">
+          <div class="overflow-hidden h-64 bg-gray-200 p-4 items-center justify-center flex">
+            <img class="max-h-full h-48 w-auto rounded-lg group-hover:scale-105 transition duration-500" src="photos/Cap.4th term.png" alt="spinnovation project">
+          </div>
+          <div class="p-6 flex flex-col flex-1">
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-purple-300 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">Automated Greenhouse</span>
+              <span class="bg-green-300 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">Spinach</span>
+              <span class="bg-amber-300 text-amber-800 text-xs font-semibold px-2.5 py-0.5 rounded">Smart Feedback System</span>
+              <span class="bg-rose-300 text-rose-800 text-xs font-semibold px-2.5 py-0.5 rounded">Irrigation System</span>
+            </div>
+            <h3 class="font-serif font-bold text-xl text-gray-900 mb-2">Spinnovation</h3>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4 text-justify">An automated greenhouse model built using smart feedback and irrigation systems.</p>
+            <a href="files/Full Size Poster.10222. g11. 2nd term.pdf"
+            target="_blank"
+            class="inline-block text-blue-600 font-bold text-sm hover:text-blue-800 transition mt-auto pt-8">
+              View Project Poster &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-white py-16 px-10" id="skills">
+      <h2 class="font-serif font-bold text-4xl mb-6 text-gray-900">Skills</h2>
+      <div class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white p-8 rounded-xl shadow-md border border-gray-100 hover:Sshadow-xl transition duration-300 flex flex-col">
+            <h3 class="font-serif font-bold text-xl text-gray-900 mb-4">Engineering & Research Skills</h3>
+            <ul class="space-y-2 text-gray-600 text-sm">
+              <li>✔ Arduino & Electronics</li>
+              <li>✔ Sensor Integration</li>
+              <li>✔ Data Analysis</li>
+              <li>✔ Biomaterials Research</li>
+              <li>✔ Research Methodology</li>
+            </ul>
+          </div>
+          <div class="bg-white p-8 rounded-xl shadow-md border border-gray-100 hover:shadow-xl transition duration-300 flex flex-col">
+            <h3 class="font-serif font-bold text-xl text-gray-900 mb-4">Software & Web Development Skills</h3>
+            <ul class="space-y-2 text-gray-600 text-sm">
+              <li>✔ HTML5 Semantic Structure</li>
+              <li>✔ CSS Frameworks</li>
+              <li>✔ Responsive Layouts</li>
+              <li>✔ UI/UX Visual Hierarchy</li>
+            </ul>
+            </div>
+          <div class="bg-white p-8 rounded-xl shadow-md border border-gray-100 hover:shadow-xl transition duration-300 flex flex-col">
+            <h3 class="font-serif font-bold text-xl text-gray-900 mb-4">Personal & Soft Skills</h3>
+            <ul class="space-y-2 text-gray-600 text-sm">
+              <li>✔ Active Communication</li>
+              <li>✔ Technical Documentation</li>
+              <li>✔ Problem Solving</li>
+              <li>✔ Teamwork & Collaboration</li>
+              <li>✔ Time Management</li>
+              <li>✔ Creative Writing & Storytelling</li>
+            </ul>
+          </div>
+      </div>
+      </div>
+    </div>
+    <div class="bg-slate-100 w-full py-16 px-10" id="journey">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="font-serif font-bold text-4xl mb-12 text-gray-900">My Journey</h2>
+        <div class="relative border-l-2 border-blue-500 ml-4 md:ml-32 space-y-10">
+          <div class="relative pl-8">
+            <div class="absolute -left-[9px] top-1.5 w-4 h-4 bg-blue-500 rounded-full border-4 border-white"></div>
+            <span class="font-bold text-xs text-blue-600 bg-blue-100 px-3 py-1 rounded-full uppercase tracking-wider">Present</span>
+            <h3 class="font-bold text-xl text-gray-800 mt-2">Web Development Exploration & Starting the Curriculum</h3>
+            <p class="text-gray-600 text-sm mt-1 leading-relaxed">Building a strong foundation in web development principles by exploring HTML and CSS, while studying Grade 12 lessons.</p>
+          </div>
+          <div class="relative pl-8">
+            <div class="absolute -left-[9px] top-1.5 w-4 h-4 bg-blue-500 rounded-full border-4 border-white"></div>
+            <span class="font-bold text-xs text-blue-600 bg-blue-100 px-3 py-1 rounded-full uppercase tracking-wider">2025-2026</span>
+            <h3 class="font-bold text-xl text-gray-800 mt-2">Engineering & Applied Research</h3>
+            <p class="text-gray-600 text-sm mt-1 leading-relaxed">Working on practical STEM laboratory projects including biomaterials research, sensor integration with Arduino, and mechanical design.</p>
+          </div>
+          <div class="relative pl-8">
+            <div class="absolute -left-[9px] top-1.5 w-4 h-4 bg-blue-500 rounded-full border-4 border-white"></div>
+            <span class="font-bold text-xs text-blue-600 bg-blue-100 px-3 py-1 rounded-full uppercase tracking-wider">2024-2025</span>
+            <h3 class="font-bold text-xl text-gray-800 mt-2">Joining STEM High School for Boys - 6th of October</h3>
+            <p class="text-gray-600 text-sm mt-1 leading-relaxed">Starting an intensive academic journey focused on critical thinking, scientific inquiry, team collaboration, and problem-solving skills.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <footer class="bg-gray-900 py-8 w-full border-t border-gray-700">
+      <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+        <div class="text-center md:text-left">
+          <span class="font-serif font-bold text-xl text-blue-400">S.S.M.</span>
+        </div>
+        <div class="text-gray-500 text-sm text-center md:text-right">
+          <p>&copy; 2026 Salem Safwat. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
