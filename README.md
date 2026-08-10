@@ -13,6 +13,11 @@ Welcome to my personal portfolio repository! I'm Salem Safwat, a Grade 12 studen
 - **Tailwind CSS (via CDN):** Modern, utility-first styling and dynamic layouts.
 - **Google Fonts:** Playfair Display for elegant typography.
 
+## How to Run the Project locally:
+1. Clone or download the repository.
+2. Open the project folder on your computer.
+3. Double-click `index.html` file, or open it directly using any web browser.
+
 ## Website Preview:
 ![Hero Section](photos/hero%20section.png)
 ![About Me Section p.1](photos/about%20me%20p.1.png)
